@@ -1,0 +1,73 @@
+.about {
+    padding: 20px;
+    background-color: #007bff;
+  }
+  
+  .about h2 {
+    text-align: center;
+  }
+  
+  .about p {
+    text-align: justify;
+  }
+  
+  .profile-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(65, 31, 31, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    min-width: 300px;
+    width: 350px;
+    margin: 10px;
+  }
+  
+  .profile-image {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .profile-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 70px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-details {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .profile-details h2 {
+    margin: 10px 0;
+  }
+  
+  .profile-details p {
+    color: #666;
+  }
+  
+  .aboutus {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border: 2px dotted white;
+    border-radius: 20px;
+  }
+  
+  .copyright {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Handlee', cursive;
+    font-family: 'PT Serif', serif;
+  }
+  
